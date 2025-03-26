@@ -1,0 +1,50 @@
+# Logs
+
+
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.env
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build files
+dist/
+build/
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Dependencies
+node_modules/
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+.firebaserc
+
+# Environment
+.env
+.env.local
+.env.development
+.env.production
