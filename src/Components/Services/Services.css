@@ -1,0 +1,36 @@
+#img{
+    width: 100%;
+    height: 60vh;
+}
+#img h1{
+    position: absolute;
+    text-align: center;
+    color:white;
+    font-size: 3vw;
+    font-weight: 700;
+    left: 40%;
+    top: 45%;
+}
+#img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#services{
+    width: 100%;
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.boxs{
+    width: 30%;
+    padding: 3vh 2vw;
+    background-color: rgb(225, 221, 221);
+}
+.boxs h3{
+    font-size: 1.8vw;
+    margin-bottom: 2vh;
+}
