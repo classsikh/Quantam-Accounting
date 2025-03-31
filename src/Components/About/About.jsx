@@ -20,7 +20,7 @@ function About() {
                 <h3 className="font-helvetica text-gray-400 mt-2 text-center">
                     Let's Build Trust Together
                 </h3>
-                <img src="./public/Aboutus1.jpg" className="w-full h-full mb-4" alt="" />
+                <img src="/Aboutus1.jpg" className="w-full h-full mb-4" alt="" />
             </div>
 
             {/* About section with dynamic height */}

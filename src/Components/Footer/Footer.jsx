@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="md:flex md:justify-between p-5 flex-wrap">
           <div className="mb-6 md:mb-0 flex flex-col items-start w-full md:w-1/3">
             <Link to="/" className="flex items-start">
-              <img src="./public/logo2.jpeg" className="h-20 mb-4" alt="Logo" />
+              <img src="/logo2.jpeg" className="h-20 mb-4" alt="Logo" />
             </Link>
             <p className="w-full md:w-[30vw] flex flex-col justify-start items-start text-sm">
               <span className="w-full flex items-center p-1">
