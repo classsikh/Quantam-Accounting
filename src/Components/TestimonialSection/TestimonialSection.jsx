@@ -106,7 +106,7 @@ const TestimonialSection = () => {
           We use these tools for seamless Accounting
         </h1>
         <img
-          src="/Tools1.png"
+          src="./public/Tools1.png"
           className="w-[800px] h-[600px] object-contain"
           alt="Tools"
         />

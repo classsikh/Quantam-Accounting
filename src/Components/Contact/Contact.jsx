@@ -54,7 +54,7 @@ const Contact = () => {
     <div className="flex flex-col items-center bg-gray-100 min-h-screen mt-3 p-4">
       <div className="flex flex-wrap w-full max-w-5xl bg-white shadow-lg rounded-lg overflow-hidden border-4 border-orange-400 border-b-blue-500 p-6">
         <div className="hidden md:flex items-center justify-center w-full md:w-1/2 bg-[#EEA124] p-8">
-          <img src="/contact_pic.png" alt="Illustration" className="w-full max-w-xs md:max-w-sm h-auto" />
+          <img src="./public/contact_pic.png" alt="Illustration" className="w-full max-w-xs md:max-w-sm h-auto" />
         </div>
 
         <div className="w-full md:w-1/2 p-4 md:p-8">

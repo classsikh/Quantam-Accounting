@@ -5,17 +5,17 @@ const teamMembers = [
   {
     name: "Shinu Goswami",
     role: "Co-Founder",
-    image: "/Pic2.jpeg",
+    image: "./public/Pic2.jpeg",
   },
   {
     name: "Aryan Singh",
     role: "Founder & CEO",
-    image: "/Pic1.jpeg",
+    image: "./public/Pic1.jpeg",
   },
   {
     name: "Aditya Shrivastava",
     role: "IT Director",
-    image: "/Pic3.png",
+    image: "./public/Pic3.png",
   },
 ];
 

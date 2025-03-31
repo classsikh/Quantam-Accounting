@@ -67,7 +67,7 @@ const WhyChooseUs = () => {
         <MotionDiv delay={0.6}>
           <div className="w-full flex justify-center">
             <img
-              src="/pic2.jpg"
+              src="./public/pic2.jpg"
               alt="Feature"
               className="w-80 h-80 object-cover rounded-lg shadow-lg"
             />
