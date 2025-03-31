@@ -13,7 +13,7 @@ export default function Home() {
                     
                     {/* Background Image - Responsive */}
                     <img
-                        src="./public/accounting.jpeg"
+                        src="/accounting.jpeg"
                         alt="Accounting Background"
                         className="absolute w-full h-full object-cover opacity-30"
                     />
