@@ -14,7 +14,7 @@ import { FaBook , FaCalculator, FaMoneyCheckAlt , FaClipboardCheck ,FaMoneyBillW
                 <img src="/Aboutus1.jpg" className='w-full h-full mb-4'alt="" />
             </div>
 
-            <div id="service" className="py-5 mt-28">
+            <div id="services" className="py-5 mt-28">
                 <div className="row mb-5">
                     <div className="boxs">
                         

@@ -5,13 +5,6 @@ function About() {
     const [showMore, setShowMore] = useState(false);
     const aboutSectionRef = useRef(null);
 
-    useEffect(() => {
-        if (showMore && aboutSectionRef.current) {
-            aboutSectionRef.current.style.height = `${aboutSectionRef.current.scrollHeight}px`;
-        } else if (aboutSectionRef.current) {
-            aboutSectionRef.current.style.height = "auto";
-        }
-    }, [showMore]);
 
     return (
         <div>

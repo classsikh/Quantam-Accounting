@@ -1,73 +1,131 @@
-#img{
+
+
+#img {
     width: 100%;
     height: 30%;
-}
-#img h1{
+    position: relative;
+  }
+  
+  #img h1 {
     position: absolute;
     text-align: center;
     font-size: 3vw;
     font-weight: 700;
     left: 40%;
-    color: rgb(1, 1, 1)!important;
+    color: rgb(1, 1, 1) !important;
     top: 45%;
-}
-#img img{
+  }
+  
+  #img img {
     width: 100%;
     height: 50%;
     object-fit: cover;
-}
-
-#about {
+  }
+  
+  #about {
     width: 100%;
-    position: relative;
     padding: 2vh 0;
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     align-items: flex-start;
     overflow: hidden;
     transition: height 0.4s ease-in-out;
-}
-
-#about.expanded {
-    height: auto; /* Adjust height dynamically */
-}
-
-/* Fix left image size */
-#about #left {
-    width: 50%;
-    max-width: 400px; /* Prevents it from stretching */
+  }
+  
+  #about.expanded {
     height: auto;
-    position: relative;
-}
-
-#about #left img {
+  }
+  
+  #about #left {
+    flex: 1 1 40%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  #about #left img {
     width: 100%;
     height: auto;
     object-fit: cover;
-}
-
-/* Right section */
-#about #right {
-    width: 60%;
-    padding: 1vh 3vw;
-}
-
-#right h2 {
+    border-radius: 10px;
+  }
+  
+  #about #right {
+    flex: 1 1 55%;
+    padding: 1vh 2vw;
+  }
+  
+  #right h2 {
     font-size: 2.5vw;
     font-weight: 900;
     color: black;
     margin-bottom: 15px;
-}
-
-#right p {
+  }
+  
+  #right p {
     font-weight: 400;
     font-size: 1.3vw;
-}
-
-#right button {
-    background-color:#EEA124;
+    line-height: 1.6;
+  }
+  
+  #right button {
+    background-color: #EEA124;
     color: white;
     font-size: 1vw;
     padding: 1vh 2vw;
     border-radius: 5px;
-    margin-top: 5vh;
-}
+    margin-top: 3vh;
+    transition: background 0.3s ease;
+  }
+  
+  #right button:hover {
+    background-color: #e18f1a;
+  }
+  
+  /* ========== Responsive Queries ========== */
+  
+  @media (max-width: 1024px) {
+    #about {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #about #left, 
+    #about #right {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  
+    #right h2 {
+      font-size: 5vw;
+    }
+  
+    #right p {
+      font-size: 2vw;
+    }
+  
+    #right button {
+      font-size: 2vw;
+      padding: 1.5vh 3vw;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    #img h1 {
+      font-size: 6vw;
+      left: 30%;
+    }
+  
+    #right h2 {
+      font-size: 6vw;
+    }
+  
+    #right p {
+      font-size: 3vw;
+    }
+  
+    #right button {
+      font-size: 3vw;
+      padding: 2vh 4vw;
+    }
+  }
